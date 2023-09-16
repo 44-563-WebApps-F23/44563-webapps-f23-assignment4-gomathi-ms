@@ -1,0 +1,14 @@
+.speech{
+    font-family: 'Times New Roman', Times, serif;color: black;
+}
+.direction{
+    
+    font-family: 'Courier New', Courier, monospace;font-size: medium;
+}
+.direction :hover{
+    background-color: bisque;
+    color: black;
+}
+.name{
+    color: coral;
+}
