@@ -7,7 +7,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;font-size: medium;
 }
 .direction:hover{
-    background-color: bisque;
+    background-color:lightblue;
     color: black;
 }
 .RAGNAR{
@@ -15,12 +15,12 @@
 }
 .KNUTBROVIK
 {
-    color:darkgreen;
+    color:greenyellow;
 }
 .KAIA{
     color:darkmagenta;
 }
 .BROVIK
 {
-    color:blue;
+    color:maroon;
 }
