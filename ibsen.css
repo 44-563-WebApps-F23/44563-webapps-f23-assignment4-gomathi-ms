@@ -3,9 +3,9 @@
 }
 .direction{
     
-    font-family: 'Courier New', Courier, monospace;font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;font-size: medium;
 }
-.direction :hover{
+.direction  .direction:hover{
     background-color: bisque;
     color: black;
 }
