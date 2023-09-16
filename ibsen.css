@@ -1,11 +1,12 @@
 .speech{
-    font-family: 'Times New Roman', Times, serif;color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
 }
 .direction{
     
     font-family: Georgia, 'Times New Roman', Times, serif;font-size: medium;
 }
-.direction  .direction:hover{
+p.direction :hover{
     background-color: bisque;
     color: black;
 }
