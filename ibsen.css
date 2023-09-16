@@ -6,7 +6,7 @@
     
     font-family: Georgia, 'Times New Roman', Times, serif;font-size: medium;
 }
-.direction p:hover{
+.direction:hover{
     background-color: bisque;
     color: black;
 }
