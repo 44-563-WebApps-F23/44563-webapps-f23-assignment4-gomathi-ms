@@ -24,3 +24,12 @@
 {
     color:blue;
 }
+table {
+    border: solid 3px;
+    border-collapse: collapse;}
+td, th {border: solid 1px ;
+        text-align: center;
+    padding: 8px;
+margin: auto;}
+tr:nth-child(even)
+{background-color: #3c3535;}
