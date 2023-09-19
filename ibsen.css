@@ -24,12 +24,33 @@
 {
     color:blue;
 }
-table {
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  }
+table,tr {
     border: solid 3px;
-    border-collapse: collapse;}
-td, th {border: solid 1px ;
+    border-collapse: collapse;    
+    width: 100%;}
+    tr{
+        border: solid;
         text-align: center;
-    padding: 8px;
-margin: auto;}
+        padding: 8px;
+        margin: auto;
+    }
+    
+td{border: solid 1px ;
+        text-align: center;
+        padding: 8px;
+        margin: auto;
+    color:brown;}
 tr:nth-child(even)
-{background-color: #7f7e7e;}
+{background-color:aquamarine;}
