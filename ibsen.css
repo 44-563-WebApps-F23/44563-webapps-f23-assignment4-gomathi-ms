@@ -39,7 +39,7 @@ table, td, th {
 table,tr {
     border: solid 3px;
     border-collapse: collapse;    
-    width: 100%;}
+    width: 50%;}
     tr{
         border: solid;
         text-align: center;
