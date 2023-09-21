@@ -1,56 +1,89 @@
-.speech{
-    font-family:'Courier New', Courier, monospace;
+.speech {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
     color: black;
 }
-.direction{
-    
-    font-family: Georgia, 'Times New Roman', Times, serif;font-size: medium;
-}
-.direction:hover{
-    background-color:lightblue;
+
+.direction {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:smaller;
+    background-color:antiquewhite;
     color: black;
 }
-.RAGNAR{
+
+.direction:hover {
+    background-color: lightblue;
+    color:#d11a1a;
+}
+
+.RAGNAR {
     color: red;
 }
-.KNUTBROVIK
-{
-    color:deeppink;
+
+.KNUTBROVIK {
+    color: deeppink;
 }
-.KAIA{
-    color:orange;
+
+.KAIA {
+    color: orange;
 }
-.BROVIK
-{
-    color:blue;
+
+.BROVIK {
+    color: blue;
 }
-table, td, th {
+
+table,
+td,
+th {
     border: 1px solid black;
-  }
-  
-  table {
+}
+
+table {
     border-collapse: collapse;
     width: 100%;
+}
+thead {
+    background-color: #e60b0b;
+    color: white;
   }
-  
-  th {
+
+th {
     height: 70px;
-  }
-table,tr {
+}
+
+table,
+tr {
     border: solid 3px;
-    border-collapse: collapse;    
-    width: 50%;}
-    tr{
-        border: solid;
-        text-align: center;
-        padding: 8px;
-        margin: auto;
-    }
-    
-td{border: solid 1px ;
-        text-align: center;
-        padding: 8px;
-        margin: auto;
-    color:brown;}
-tr:nth-child(even)
-{background-color:aquamarine;}
+    border-collapse: collapse;
+    width: 50%;
+}
+
+tr {
+    border: solid;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+}
+
+td {
+    border: solid 1px;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    color:blueviolet;
+}
+
+
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+
+.name:hover {
+    text-shadow:2px 3px 5px green;
+
+    border: solid;
+    border-color: pink;
+    box-shadow: 0 2px 15px -3px rgba(34, 220, 17, 0.07), 0 10px 20px -2px rgba(38, 196, 17, 0.04)
+}
